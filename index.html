@@ -122,29 +122,15 @@
 </section>
 
 <footer>
-    <p>&copy; 2024 | Discount Codes | All rights reserved | Visits: <span id="visitCounter">0</span></p>
+    <!-- <p>&copy; 2024 | Discount Codes | All rights reserved | Visits: <span id="visitCounter">0</span></p> -->
+    <p>&copy; 2024 | Discount Codes | All rights reserved 
+        <span>
+            <a href='http://www.freevisitorcounters.com'>freevisitorcounters's Website</a>
+            <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=bb81db38f3268c1cc90e79635f46c16b0759cd3b'></script>
+            <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1131437/t/0"></script>
+        </span>
+    </p>    
 </footer>
-
-
-
-<script>
-  // Check if the 'visits' variable is stored in localStorage
-  if (!localStorage.getItem('visits')) {
-    // If not, set it to 1
-    localStorage.setItem('visits', 1);
-  } else {
-    // If yes, increment the value
-    let visits = parseInt(localStorage.getItem('visits'), 10);
-    visits++;
-    localStorage.setItem('visits', visits);
-  }
-</script>
-
-<script>
-  // Update the counter value
-  document.getElementById('visitCounter').innerText = localStorage.getItem('visits');
-</script>
-
 
 </body>
 </html>
